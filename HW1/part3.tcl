@@ -22,6 +22,9 @@ all_fanout -from [get_ports]
 # 3. find cells which have U in their instance name
 get_cells *U* -hierarchical
 
+@innovus 4> get_cells *U* -hierarchical
+coreinst/ks_core1/periph1_PH/amba_usb1/usb1/u1/u3/pid_OUT_r_reg coreinst/ks_core1/periph1_PH/amba_usb1/usb1/u1/u3/pid_SETUP_r_reg coreinst/ks_core1/periph1_PH/amba_usb1/AmbaWbWrapper_DUT coreinst/ks_core1/periph1_PH/des_top1/des_top_inst/AHBSlaveIF/OUTfifoRead_reg coreinst/ks_core1/periph1_PH/des_top1/des_top_inst/controller/OUTfifoWrite_reg_reg coreinst/ks_core1/periph1_PH/des_top1/des_top_inst/OUTfifo
+
 
 ##############################################
 # 4. find all cells which have OR2 in their base_name

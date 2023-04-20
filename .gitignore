@@ -4,3 +4,5 @@ design*
 lib*
 *~
 tempus*
+INPUT*
+common_init.tcl

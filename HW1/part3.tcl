@@ -30,8 +30,10 @@ coreinst/ks_core1/periph1_PH/amba_usb1/usb1/u1/u3/pid_OUT_r_reg coreinst/ks_core
 # 4. find all cells which have OR2 in their base_name
 get_cells *OR2* -hierarchical
 
+@innovus 9> get_cells *OR2*
+**WARN: (TCLCMD-513):   The software could not find a matching object of the specified type for the pattern '*OR2*'
+**ERROR: (TCLCMD-917):  Cannot find 'cells' that match '*OR2*'
 
 ##############################################
 # 5. find all ports which are in layer M13
-
-
+get_ports [dbGet *M13*]

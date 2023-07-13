@@ -1,5 +1,9 @@
 .nfs*
 innovus*
+genus.cmd*
+genus.log*
+innovus.cmd*
+innovus.log*
 design*
 lib*
 *~
